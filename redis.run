@@ -1,0 +1,2 @@
+#docker run -it --name redis-server-with-cache-cli -p 6379:6379 -v /Users/foogaro/projects/GITHUB/redis-smart-cache/redis-data:/data -v /Users/foogaro/projects/GITHUB/redis-smart-cache/redis.conf:/redis-stack.conf -p 6379:6379 -p 8001:8001 redis/redis-stack:7.2.0-v10
+docker run -it --name redis-server-with-cache-cli -p 6379:6379 -p 8001:8001 foogaro/redis-stack-server-with-smart-cache-cli:7.2.0-v10-0.0.13
